@@ -111,6 +111,7 @@ p {
     padding: 7px;
     min-width: 200px;
     margin-bottom: 50px;
+    transition: transform o.5s;
 }
 
 .col-4 img {
@@ -127,6 +128,7 @@ p {
 
 .title::after {
     content: '';
+    background: #ff523b;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -134,4 +136,17 @@ p {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+.h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-5px);
 }
